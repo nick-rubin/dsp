@@ -102,7 +102,12 @@ which equals **5/11**
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Simply put, the Frequentist approach operates upon the basic assumption that an event has a static probability, and any variation in a population is due to the sampling of said population. The Bayesian approach postulates that probabilities are variable, but we can state the confidence we have in it being within an interval of multiple observations.
+
+
+Bayesian statistics use prior knowledge to influence their analysis, Frequentist statistics looks at all test cases and makes a conclusion based off of that alone.
+
+![cartoon not found](https://imgs.xkcd.com/comics/frequentists_vs_bayesians.png "relevant xkcd")
 
 ---
 
