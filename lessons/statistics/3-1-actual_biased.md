@@ -1,18 +1,17 @@
 [Think Stats Chapter 3 Exercise 1](http://greenteapress.com/thinkstats2/html/thinkstats2004.html#toc31) (actual vs. biased)
 
-<<<<<<< HEAD
 The problem we're addressing in this section is the class size paradox, which is the bias found when surveying a sample about its observations about itself, for example, children being asked how many children there are in their family. The biases found in this example are that families with more children will be more likely to be surveyed, and obviously families without children will not be surveyed at all.
 
 The goal of this assignment is to compute the baised distribution, compare it to the actual distribution and show them visually. The method we're going to use will be presented in a probability mass function and compared visually via step function.
 
 A probability mass function is a means to represent a distribution where a frequency is expressed as a fraction of the total sample size, normalizing the data. Instead of showing the data as an integer representing the count of certain values, pmfs show us the data as a float representing the probability a certain value represents when compared to the data as a whole.
-=======
+
+
 Communicate the problem, how you solved it, and the solution, within each of the following markdown files. (You can include code blocks and images within markdown.)
 
 The problem we're addressing in this section is the class size paradox, which is the bias found when surveying children to ask how many children there are in their family. The biases found are that families with more children will be more likely to be surveyed, and obviously families without children will not be surveryed at all.
 
 The goal of this assignment is to compute the baised distribution, compare it to the actual distribution and show them visually. The method we're going to use will be presented in a probability mass function and compared visually via step function.
->>>>>>> 561bf5c6007946419d8f7a9d78a9e01643d26dc8
 
 As for the bias calculation, ThinkStats has provided us with the function BiasPmf:
 
@@ -41,7 +40,6 @@ thinkplot.PrePlot(2)
 thinkplot.Pmfs([pmf, biased])
 thinkplot.Config(xlabel='Number of children', ylabel='PMF')
 ~~~
-<<<<<<< HEAD
 
 ![alt text](Prework3.1.png "Overlayed Biased/Actual Step Function")
 
@@ -52,6 +50,5 @@ From this points it's quite simple to calculate their means:
 pmf.Mean()
 biased.Mean()
 ~~~
+
 The results are 1.024 for the actual mean, and 2.404 for the biased mean; quite the difference!
-=======
->>>>>>> 561bf5c6007946419d8f7a9d78a9e01643d26dc8
