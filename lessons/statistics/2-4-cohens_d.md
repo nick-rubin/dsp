@@ -1,8 +1,6 @@
 [Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
 
-Communicate the problem, how you solved it, and the solution, within each of the following markdown files. (You can include code blocks and images within markdown.)
-
-The problem here is what the best analytical approach might be to determine if first babies are lighter or heavier than non-first babies. For example, it might be best to simply compare the mean of both categories. I might instead recommend using the median. This would provide the point in the distribution where a babies' weight is equally likely to be above and below it, rather than averaging all weights.
+The problem here is two-fold, first determining what the best analytical approach might be to find out if first babies are lighter or heavier than non-first babies, the second being to compare the difference between the two to the difference in pregnancy length. To tackle the first problem, it might be best to simply compare the mean of both categories, but the median might also prove helpful. Rather than the average, the median would provide the point in the distribution where a babies' weight is equally likely to be above and below it. Regardless of the median's importance  the tool we'll be using to compare the two will be Cohen's *d*, which uses mean in its calculations, so while I'll be presenting the median below for context, it's important to note the mean will be what we use.
 
 
 
